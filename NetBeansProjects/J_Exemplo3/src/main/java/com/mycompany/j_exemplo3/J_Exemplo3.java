@@ -14,7 +14,5 @@ public class J_Exemplo3 {
         empregado e[] = new empregado[2];
         ler(e);
         for(int i=0; i<2; i++)
-        JOption.Pane.showMenssageDialog(null,"Nome:" + e[i].nome);
-        JOptionPane.showMenssageDialog(null,"Salario:" + e[i].salario);
     }
 }

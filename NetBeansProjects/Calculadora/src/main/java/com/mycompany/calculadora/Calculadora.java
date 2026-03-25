@@ -16,7 +16,18 @@ public class Calculadora {
         }
         return a / b;
     }
-   public static boolean numeroEhPar(int n){
+    public static int maiorNumero(int a, int b, int c){
+        int maior = a;
+        if(b>maior){
+            maior=b;
+        }
+        if(c>maior){
+            maior=c;
+        }
+        return maior;
+    }
+    
+    public static boolean numeroEhPar(int n){
         return n%2 == 0;
     }
 
