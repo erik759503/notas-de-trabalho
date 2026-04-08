@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: testConta1
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.550 s <<< FAILURE! -- in testConta1
+testConta1.devevalidarMultiplos -- Time elapsed: 0.022 s <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2944)
+	at testConta1.devevalidarMultiplos(testConta1.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	Suppressed: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+		at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+		at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+		at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+		at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+		at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+		at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+		at testConta1.lambda$devevalidarMultiplos$1(testConta1.java:43)
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$0(AssertAll.java:68)
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
+		... 7 more
+
